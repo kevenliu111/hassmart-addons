@@ -13,11 +13,11 @@
     "server_port": "7000",
     "local_port": "8123",
     "remote_port": "8123",
-    "auth_token": "wood0225"
+    "token": "wood0225"
   },
   "schema": {
     "server_ip": "str",
-    "auth_token": "str",
+    "token": "str",
     "server_port": "str",
     "proxy_name": "str?",
     "local_port": "str",

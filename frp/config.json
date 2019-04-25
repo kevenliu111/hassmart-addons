@@ -9,6 +9,7 @@
   "host_network": true,
   "arch": ["armhf", "amd64", "i386"],
   "options": {
+    "proxy_name": "HASSIO",
     "server_ip": "39.100.82.223",
     "server_port": "5443",
     "local_port": "8123",

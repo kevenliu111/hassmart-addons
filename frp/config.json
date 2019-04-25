@@ -13,7 +13,8 @@
     "server_port": "7000",
     "local_port": "8123",
     "remote_port": "8123",
-    "token": "wood0225"
+    "token": "wood0225",
+    "custom_domains": null
   },
   "schema": {
     "server_ip": "str",
@@ -21,6 +22,7 @@
     "server_port": "str",
     "proxy_name": "str?",
     "local_port": "str",
-    "remote_port": "str"
+    "remote_port": "str",
+    "custom_domains": "str"
   }
 }

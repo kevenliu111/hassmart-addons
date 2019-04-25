@@ -8,6 +8,7 @@ TOKEN=$(jq --raw-output '.token // empty' $CONFIG_PATH)
 SERVER_PORT=$(jq --raw-output '.server_port' $CONFIG_PATH)
 LOCAL_PORT=$(jq --raw-output '.local_port' $CONFIG_PATH)
 REMOTE_PORT=$(jq --raw-output '.remote_port' $CONFIG_PATH)
+CUSTOM_DOMAINS=$(jq --raw-output '.custom_domains' $CONFIG_PATH)
 PROXY_NAME=$(jq --raw-output '.proxy_name // empty' $CONFIG_PATH)
 
 FRP_PATH=/var/frp
@@ -25,6 +26,7 @@ fi
 echo "[common]" >> $FRPC_CONF
 echo "server_addr = $SERVER_IP" >> $FRPC_CONF
 echo "server_port = $SERVER_PORT" >> $FRPC_CONF
+echo "custom_domains = $CUSTOM_DOMAINS" >> $FRPC_CONF
 if [ $TOKEN ]; then
   echo "token = $TOKEN" >> $FRPC_CONF
 fi

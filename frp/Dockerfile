@@ -1,6 +1,6 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
-MAINTAINER SchumyHao <schumy.haojl@gmail.com>
+MAINTAINER kevenliu111 <kevenliu111@gmail.com>
 
 ENV LANG C.UTF-8
 

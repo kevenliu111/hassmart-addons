@@ -31,7 +31,7 @@ if [ $TOKEN ]; then
   echo "token = $TOKEN" >> $FRPC_CONF
 fi
 echo "[$PROXY_NAME]" >> $FRPC_CONF
-echo "type = tcp" >> $FRPC_CONF
+echo "type = http" >> $FRPC_CONF
 echo "local_ip = 127.0.0.1" >> $FRPC_CONF
 echo "local_port = $LOCAL_PORT" >> $FRPC_CONF
 echo "remote_port = $REMOTE_PORT" >> $FRPC_CONF

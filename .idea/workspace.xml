@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba43ff0e-8d69-4239-bd14-7affa1b4032b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/frp/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/frp/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frp/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/frp/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/version.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frp/config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            <state relative-caret-position="380">
+              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -154,7 +152,7 @@
       <option name="presentableId" value="Default" />
       <updated>1556184903989</updated>
       <workItem from="1556184905382" duration="440000" />
-      <workItem from="1556185347048" duration="2233000" />
+      <workItem from="1556185347048" duration="2851000" />
     </task>
     <task id="LOCAL-00001" summary="V00001">
       <created>1556185633866</created>
@@ -170,11 +168,25 @@
       <option name="project" value="LOCAL" />
       <updated>1556186108581</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="V00003">
+      <created>1556187871344</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556187871344</updated>
+    </task>
+    <task id="LOCAL-00004" summary="V00004">
+      <created>1556187926332</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556187926332</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2673000" />
+    <option name="totallyTimeSpent" value="3291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="129" y="0" width="1400" height="860" extended-state="0" />
@@ -231,7 +243,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="V00001" />
     <MESSAGE value="V00002" />
-    <option name="LAST_COMMIT_MESSAGE" value="V00002" />
+    <MESSAGE value="V00003" />
+    <MESSAGE value="V00004" />
+    <option name="LAST_COMMIT_MESSAGE" value="V00004" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../hassmart-addons-master/node-red/Dockerfile">
@@ -254,6 +268,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frp/run.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/version.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -268,13 +285,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frp/run.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/frp/config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="380">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>

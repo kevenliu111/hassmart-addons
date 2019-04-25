@@ -26,7 +26,7 @@ fi
 echo "[common]" >> $FRPC_CONF
 echo "server_addr = $SERVER_IP" >> $FRPC_CONF
 echo "server_port = $SERVER_PORT" >> $FRPC_CONF
-echo "custom_domains = $CUSTOM_DOMAINS" >> $FRPC_CONF
+
 if [ $TOKEN ]; then
   echo "token = $TOKEN" >> $FRPC_CONF
 fi
@@ -35,6 +35,7 @@ echo "type = http" >> $FRPC_CONF
 echo "local_ip = 127.0.0.1" >> $FRPC_CONF
 echo "local_port = $LOCAL_PORT" >> $FRPC_CONF
 echo "remote_port = $REMOTE_PORT" >> $FRPC_CONF
+echo "custom_domains = $CUSTOM_DOMAINS" >> $FRPC_CONF
 
 echo Start frp as client
 

@@ -9,12 +9,12 @@
   "host_network": true,
   "arch": ["armhf", "amd64", "i386"],
   "options": {
-    "server_ip": null,
-    "server_port": "7000",
+    "server_ip": "39.100.82.223",
+    "server_port": "5443",
     "local_port": "8123",
     "remote_port": "8123",
-    "token": "wood0225",
-    "custom_domains": null
+    "token": "",
+    "custom_domains": ""
   },
   "schema": {
     "server_ip": "str",
